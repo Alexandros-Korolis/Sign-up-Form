@@ -2,6 +2,10 @@
 
 @import url('https://fonts.cdnfonts.com/css/norse');
 
+body{
+    background-color: black;
+}
+
 .container {
     margin-left: 250px;
     margin-right: 250px;
@@ -14,11 +18,12 @@
 }
 
 .image {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .main-content {
-    flex-grow: 2;
+    flex: 2;
+    background-color: #f2f2f2;
 }
 
 .logo {
@@ -28,7 +33,7 @@
     align-items: center;
     background-color: black;
     opacity: 0.5;
-    width: 500px;
+    width: 610px;
 }
 .logo-image {
     flex: 1;
@@ -40,4 +45,13 @@ h1 {
     font-family: 'Norse', sans-serif;
     color: white;
     text-align: center;
+}
+
+/* ---------- Main content top section ---------- */
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 50px;
 }
