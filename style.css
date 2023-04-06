@@ -36,7 +36,7 @@ body{
     width: 610px;
 }
 .logo-image {
-    flex: 1;
+    /*flex: 1;*/
 }
 
 h1 {
@@ -54,4 +54,24 @@ p {
     font-weight: bold;
     margin-top: 150px;
     margin-left: 50px;
+}
+
+/* ---------- Sign-up section ---------- */
+
+.sign-up-section {
+    margin-left: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-name,.form-mail,.form-pass {
+    display: flex;
+}
+
+form {
+    flex: 1;
+    margin-top: 20px;
 }
